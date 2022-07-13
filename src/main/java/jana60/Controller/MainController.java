@@ -23,6 +23,6 @@ public class MainController {
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy, HH:mm:ss");
 		LocalDateTime localData = LocalDateTime.now();
 		model.addAttribute("ora", formatter.format(localData));
-		return "home";
+		return "ora";
 	}
 }
